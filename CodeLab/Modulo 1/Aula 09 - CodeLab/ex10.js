@@ -11,7 +11,9 @@ function maiorString (lista)
             maior = lista[i];
         }
     }
-    console.log(maior);
+    return maior
 }
 
-maiorString(listaStrings);
+let stringMaior = maiorString(listaStrings);
+
+console.log(stringMaior);
