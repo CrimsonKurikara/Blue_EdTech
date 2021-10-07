@@ -48,7 +48,6 @@ while(true)
                 switch(jogadores[0].resuldados[r])
                 {
                     case jogadores[1].resuldados[r]:
-                        console.log(`${position}º Posição: ${jogadores[0].nome} e  ${jogadores[1].nome} empataram!`)
                         jogadores[1].vitorias++;
                         contadorEmpate++;
                         position++;
@@ -60,7 +59,6 @@ while(true)
                 contadorEmpate++;
                 continue;
             }
-            console.log(`${position}º Posição: ${jogadores[j].nome}, tirou o valor ${jogadores[j].resuldados[r]}`);
             position++;
         }
     }
